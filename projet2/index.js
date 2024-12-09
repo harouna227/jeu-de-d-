@@ -48,7 +48,9 @@ for (var i=0; i < drumButtons; i++){
                 break;
         }
             
-    });
-
-   
+    });  
 }
+
+EventTarget.addEventListener("Keydown", (event) => {
+    console.log(event);
+ });
